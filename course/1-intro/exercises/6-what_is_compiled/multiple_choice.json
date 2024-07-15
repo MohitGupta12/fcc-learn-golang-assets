@@ -1,7 +1,7 @@
 {
   "question": "Do computer processors understand English instructions like 'open the browser'?",
-  "answers": [
+  "answers": ["No",[
     "No",
     "Yes"
-  ]
+  ]]
 }

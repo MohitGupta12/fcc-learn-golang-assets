@@ -1,8 +1,8 @@
 {
   "question": "What does the size of a type indicate?",
   "answers": [
-    "Bits",
+    "Bits { CORRECT }",
     "Bytes",
-    "Nibbles"
+    "Nibbles (4 bytes is called a 'nibble')"
   ]
 }
