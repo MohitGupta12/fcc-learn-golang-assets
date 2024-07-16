@@ -4,8 +4,17 @@ import (
 	"fmt"
 )
 
-func getExpenseReport(e expense) (string, float64) {
+func getExpenseReport(e expense) (res string, num float64) {
 	// ?
+	email, ok := e.(email)
+	if ok {
+		return email.toAddress, email.cost()
+	}
+	sms, ok := e.(sms)
+	if ok {
+		return sms.toPhoneNumber, sms.cost()
+	}
+	return
 }
 
 // don't touch below this line
